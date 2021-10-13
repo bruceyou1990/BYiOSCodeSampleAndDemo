@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-UITableViewSampleDemoOC/Pods-UITableViewSampleDemoOC-frameworks.sh
-${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
