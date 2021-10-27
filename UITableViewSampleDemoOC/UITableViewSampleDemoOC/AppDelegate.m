@@ -7,6 +7,8 @@
 
 #import "AppDelegate.h"
 #import "classicTableViewViewController.h"
+#import "launcherViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -22,17 +24,15 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     //设置根视图控制器
-    classicTableViewViewController *root = [[classicTableViewViewController alloc] init];
+    launcherViewController *root = [[launcherViewController alloc] init];
     UINavigationController *rootNav = [[UINavigationController alloc] initWithRootViewController:root];
     self.window.rootViewController = rootNav;
     
     //显示窗口
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
-
-
-
 
 
 @end

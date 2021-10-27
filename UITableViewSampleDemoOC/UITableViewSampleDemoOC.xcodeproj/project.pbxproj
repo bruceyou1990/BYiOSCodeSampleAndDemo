@@ -16,6 +16,7 @@
 		EE61E7672717123700E1F41A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE61E7652717123700E1F41A /* LaunchScreen.storyboard */; };
 		EE61E76A2717123800E1F41A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE61E7692717123800E1F41A /* main.m */; };
 		EE61E7732717164800E1F41A /* classicTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE61E7722717164800E1F41A /* classicTableViewViewController.m */; };
+		EEDBA55A271AE3F100627D3F /* launcherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDBA559271AE3F100627D3F /* launcherViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		EE61E7692717123800E1F41A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE61E7712717164800E1F41A /* classicTableViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = classicTableViewViewController.h; sourceTree = "<group>"; };
 		EE61E7722717164800E1F41A /* classicTableViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = classicTableViewViewController.m; sourceTree = "<group>"; };
+		EEDBA558271AE3F100627D3F /* launcherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = launcherViewController.h; sourceTree = "<group>"; };
+		EEDBA559271AE3F100627D3F /* launcherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = launcherViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 		EE61E7562717123300E1F41A /* UITableViewSampleDemoOC */ = {
 			isa = PBXGroup;
 			children = (
+				EEDBA558271AE3F100627D3F /* launcherViewController.h */,
+				EEDBA559271AE3F100627D3F /* launcherViewController.m */,
 				EE61E770271715E400E1F41A /* UITbaleViewSample(表格样式) */,
 				EE61E7572717123300E1F41A /* AppDelegate.h */,
 				EE61E7582717123300E1F41A /* AppDelegate.m */,
@@ -228,6 +233,7 @@
 			files = (
 				EE61E75F2717123300E1F41A /* ViewController.m in Sources */,
 				EE61E7592717123300E1F41A /* AppDelegate.m in Sources */,
+				EEDBA55A271AE3F100627D3F /* launcherViewController.m in Sources */,
 				EE61E76A2717123800E1F41A /* main.m in Sources */,
 				EE61E7732717164800E1F41A /* classicTableViewViewController.m in Sources */,
 				EE61E75C2717123300E1F41A /* SceneDelegate.m in Sources */,
